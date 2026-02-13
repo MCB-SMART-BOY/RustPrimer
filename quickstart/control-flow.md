@@ -71,7 +71,7 @@ let day = 5;
 
 match day {
   0 | 6 => println!("weekend"),
-  1 ... 5 => println!("weekday"),
+  1 ..= 5 => println!("weekday"),
   _ => println!("invalid"),
 }
 ```
